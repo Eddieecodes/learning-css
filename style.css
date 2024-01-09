@@ -1,0 +1,19 @@
+.tickdiv{/*check box div*/
+    border: 3px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.check{
+    accent-color: red;/*accented color of red */
+}
+.circlediv{/*radio div */
+    border: 3px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+}
+.circle{
+    accent-color: purple;/*accented color of purple */
+}
