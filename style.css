@@ -43,3 +43,15 @@
     width: 100px;
     align-self: end;
 }
+
+/*backface-visibilty*/
+.heydiv{
+    border: 2px solid grey;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+.txt{
+    transform: rotateX(180deg);/*rotate 180 degree*/
+    backface-visibility:visible;/*show*/
+}
