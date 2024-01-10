@@ -17,3 +17,29 @@
 .circle{
     accent-color: purple;/*accented color of purple */
 }
+
+
+.parent{
+    border: 3px solid grey;
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:start;/*alignitems*/
+}
+
+.div1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    
+}
+/*align-self*/
+.div1-special{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    align-self: end;
+}
