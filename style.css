@@ -94,9 +94,40 @@
   width: 300px;
   background: url('dog.jpeg') no-repeat;
   border: 16px solid red;
-  background-origin: border-box;
+  background-origin: padding-box;
   background-size: cover;
-  padding: 16px;
-  margin: 20px auto;
+  margin-top: 20px;
 }
 
+.bsdiv{/*block size for horizontal writing mode*/
+    border: 4px dotted grey;
+    width: 300px;
+    height: 300px;
+    margin-top:20px;
+    writing-mode:horizontal-lr;
+    block-size: 200px;
+}
+.bstxt{
+    
+    color: #000;
+}
+
+.bsdiv1{/*/block size for vertical writing mode*/
+    border: 4px dotted grey;
+    width: 300px;
+    height: 300px;
+    margin-top:20px;
+    writing-mode:vertical-lr;
+    block-size: 600px;
+}
+.bstxt1{
+    color: #000;
+}
+
+/*border*/
+.bord{
+    width: 200px;
+    height: 200px;
+    border: 3px solid salmon;
+    margin-top: 20px;
+}
