@@ -1,3 +1,4 @@
+
 .tickdiv{/*check box div*/
     border: 3px solid gray;
     border-radius: 10px;
@@ -84,6 +85,7 @@
     border-radius: 10px;
     background-image: url(dog.jpeg);/*dog image*/
     background-position: 100px 10px;
+    clip-path: circle(150px at 200px 200px);/*clip path*/
 }
 
 
@@ -109,7 +111,10 @@
 }
 .bstxt{
     
-    color: #000;
+    color: orange;
+}
+#ptxt{
+    color: peru;
 }
 
 .bsdiv1{/*/block size for vertical writing mode*/
@@ -164,6 +169,7 @@ td{
 }
 table{
     margin: 50px 70px;
+    
 }
 
 
@@ -180,8 +186,56 @@ table{
 /*bordercollapse*/
 #border-separate{
     border-collapse: separate;
+    
 }
 #border-collaspe{
     border-collapse: collapse;
+    
 }
 
+.cap{
+    caption-side: right;
+}
+
+/*caret-color*/
+#text{
+    caret-color: red; 
+    
+}
+#caret-div{
+    margin-top: 20px;
+    border: 3px solid grey;
+    height: 100px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+/*grid*/
+.grid-container{
+    margin-top:20px ;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    width: 150px;
+    column-gap: 20px;
+    columns: 3 30px;
+}
+.grid-item{
+    background-color: red;
+    width: 40px;
+}
+
+/*column*/
+.col-div{
+    columns: 3 300px;
+}
+
+/*direction*/
+.direction{
+    margin-top: 20px;
+    border: 3px solid red;
+    width: 800px;
+    height: 200px;
+    border-radius: 5px;
+    direction: rtl;
+    
+}
