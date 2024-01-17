@@ -239,3 +239,38 @@ table{
     direction: rtl;
     
 }
+
+.empty-show{
+    margin-top: 20px;
+    border: 3px solid red;
+    border-radius: 5px;
+    empty-cells: show;
+}
+.check{
+    background: #fff;
+  border: 0px solid #999;
+  
+  color: green;
+  cursor: pointer;
+}
+
+.dog-div{
+    margin-top: 20px;
+    border: 3px solid red;
+    border-radius: 5px;  
+}
+/*grid(not all grid properties are here*/
+.grid-containerr{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns:repeat(4, 40px);
+    column-gap: 40px;
+    row-gap: 20px;
+}
+.grid-itemm{
+    background-color: blue;
+    padding: 30px;
+}
+.grid-containerr :nth-child(even){
+    background-color: aqua;
+}
