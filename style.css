@@ -274,3 +274,29 @@ table{
 .grid-containerr :nth-child(even){
     background-color: aqua;
 }
+
+/*grid area*/
+#grid-div{
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "section section aside"
+    "section section aside";
+    grid-auto-rows: minmax(50px, auto);
+    grid-auto-columns: minmax(50px, auto);
+    
+}
+header{
+    grid-area: header;
+    background-color: red;
+    
+}
+section{
+    grid-area: section ;
+    background-color: blue;
+}
+aside{
+    grid-area: aside;
+    background-color: orange;
+}
